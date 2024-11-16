@@ -46,3 +46,50 @@ body{
 #page-4{
     background: var(--page-4-color);
 }
+.btn{
+    display:inline-block ;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    margin-top: 3rem;
+    border: none;
+    transition: all 0.5s ease-in;
+}
+
+#page-2 .btn-dark{
+    background: var(--page-1-color);
+    color: #fff;
+    &:hover{
+        background: #f4f4f4;
+        color: #333;
+        opacity: 0.9;
+    }
+}
+#page-1 .btn , #page-3 .btn-dark{
+    background: var(--page-2-color);
+    color: #fff;
+    &:hover{
+        background: #f4f4f4;
+        color: #333;
+        opacity: 0.9;
+    }
+}
+#page-2 .btn2, #page-4 .btn{
+    background: var(--page-3-color);
+    color: #fff;
+    &:hover{
+        background: #f4f4f4;
+        color: #333;
+        opacity: 0.9;
+    }
+}
+#page-3 .btn2{
+    background: var(--page-4-color);
+    color: #fff;
+    &:hover{
+        background: #f4f4f4;
+        color: #333;
+        opacity: 0.9;
+    }
+}
+
